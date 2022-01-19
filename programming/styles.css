@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bg{
+    background-color: yellow;
+    position: relative;
+
+}
+.main{
+    border-bottom: 2px solid black;
+}
+
+.welcome{
+    margin: auto;
+  width: 100%;
+  padding-top: 10%;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.w-p{
+    padding: 0 60px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.welcome h1{
+    font-weight: 200;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4%;
+}
+.h{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+
+.nav_link li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+
+
+.nav_link{
+    text-align: center;
+}
+
+.nav_link li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+button{
+    padding: 9px 25px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .7s;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+  
+}
+.button button:hover{
+    background-color: black;
+    color: white;
+    transition: .7s;
+    padding: 12px 27px;
+    box-shadow: 2px 2px 15px black;
+}
+.nav_link li a:hover{ 
+    border: 2px solid black;
+    padding: 0 15px;
+    box-shadow: 1px 2px 10px black;
+    transition: .7s;
+
+}
+.c-p{
+
+    background-color: yellow;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text-2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: start;
+    margin: 0 90px;
+}
+
+.text-3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+.lst{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding-left: 65px;
+}
